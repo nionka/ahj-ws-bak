@@ -1,0 +1,26 @@
+{
+  "name": "ahj-ws-bak",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/nionka/ahj-ws-bak.git",
+  "author": "Olga",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "forever": "^3.0.4",
+    "http": "0.0.1-security",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.2"
+  }
+}
